@@ -6,8 +6,8 @@ function generateRandomString(str){
     randNum = Math.round(Math.random()*(str.length - 1));
     randLet = str[randNum];
     newString += randLet;
-        }
+  }
 }
 generateRandomString(alpha);
-console.log(newString);
-// upload to GitHub
+
+
