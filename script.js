@@ -7,6 +7,7 @@ function generateRandomString(str){
     randLet = str[randNum];
     newString += randLet;
   }
+  return newString;
 }
 generateRandomString(alpha);
 
